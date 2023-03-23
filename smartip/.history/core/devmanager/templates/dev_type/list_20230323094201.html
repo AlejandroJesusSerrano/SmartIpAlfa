@@ -1,0 +1,30 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<h1 class="text-center text-dark m-2">Bienvenido al Gestor de Dispositivos de Smart-IP</h1>
+<div class="card card-default m-3">
+    <div class="card-header">
+        <h3 class="card-title p-2">
+            <i class="fas fa-list"></i>
+            {{title}}
+        </h3>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-info table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Tipo de Dispositivo</th>
+                    <th scope="col">Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <button type="button" class="btn btn-outline-primary"><i class="fa-light fa-pen"></i></button>
+                <button type="button" class="btn btn-outline-danger"><i class="fa-light fa-trash"></i></button>
+            </tbody>...
+        </table>
+    </div>
+
+</div>
+{% endblock %}
